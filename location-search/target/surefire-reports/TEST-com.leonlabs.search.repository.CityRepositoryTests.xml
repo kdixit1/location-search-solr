@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.leonlabs.search.repository.CityRepositoryTests" time="0.256" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\RAVI\Desktop\location-search"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\RAVI\Desktop\location-search"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAVI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\eclipse\workspace\study\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1047291280601897293.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\CloudFoundry;D:\Development\Software\apache-maven-3.3.9\bin;C:\Android;C:\Windows\System32;E:\dev-software\zookeeper-3.4.11\bin;C:\Program Files\Java\jre-10.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Cloud Foundry;C:\Program Files\Java\jre-10.0.1\bin;D:\Development\Software\nginx-1.9.14;D:\Development\Software\apache-maven-3.3.9\bin;${SOLR_HOME}\bin;;C:\Users\RAVI\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\RAVI"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="RAVI"/>
+    <property name="java.class.path" value="C:\Users\RAVI\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\RAVI\Desktop\location-search\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="findByName" classname="com.leonlabs.search.repository.CityRepositoryTests" time="0.256">
+    <error message="Error from server at http://localhost:8983/solr/solr: Expected mime type application/octet-stream but got text/html. &lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;/&gt;&#10;&lt;title&gt;Error 404 Not Found&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&lt;h2&gt;HTTP ERROR 404&lt;/h2&gt;&#10;&lt;p&gt;Problem accessing /solr/solr/solr/select. Reason:&#10;&lt;pre&gt;    Not Found&lt;/pre&gt;&lt;/p&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;; nested exception is org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: Error from server at http://localhost:8983/solr/solr: Expected mime type application/octet-stream but got text/html. &lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;/&gt;&#10;&lt;title&gt;Error 404 Not Found&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&lt;h2&gt;HTTP ERROR 404&lt;/h2&gt;&#10;&lt;p&gt;Problem accessing /solr/solr/solr/select. Reason:&#10;&lt;pre&gt;    Not Found&lt;/pre&gt;&lt;/p&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" type="org.springframework.data.solr.UncategorizedSolrException"><![CDATA[org.springframework.data.solr.UncategorizedSolrException: Error from server at http://localhost:8983/solr/solr: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/solr/solr/select. Reason:
+<pre>    Not Found</pre></p>
+</body>
+</html>
+; nested exception is org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: Error from server at http://localhost:8983/solr/solr: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/solr/solr/select. Reason:
+<pre>    Not Found</pre></p>
+</body>
+</html>
+
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:545)
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:241)
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:230)
+	at org.apache.solr.client.solrj.SolrRequest.process(SolrRequest.java:149)
+	at org.apache.solr.client.solrj.SolrClient.query(SolrClient.java:974)
+	at org.springframework.data.solr.core.SolrTemplate$13.doInSolr(SolrTemplate.java:1043)
+	at org.springframework.data.solr.core.SolrTemplate$13.doInSolr(SolrTemplate.java:1039)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:220)
+	at org.springframework.data.solr.core.SolrTemplate.executeSolrQuery(SolrTemplate.java:1039)
+	at org.springframework.data.solr.core.SolrTemplate.querySolr(SolrTemplate.java:1023)
+	at org.springframework.data.solr.core.SolrTemplate.queryForObject(SolrTemplate.java:600)
+	at org.springframework.data.solr.core.SolrTemplate.queryForObject(SolrTemplate.java:587)
+	at org.springframework.data.solr.core.SolrTemplate.queryForObject(SolrTemplate.java:570)
+	at org.springframework.data.solr.repository.support.SimpleSolrRepository.findOne(SimpleSolrRepository.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:504)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:489)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy94.findOne(Unknown Source)
+	at com.leonlabs.search.repository.CityRepositoryTests.createSampleData(CityRepositoryTests.java:44)
+	at com.leonlabs.search.repository.CityRepositoryTests.before(CityRepositoryTests.java:32)
+]]></error>
+    <system-out><![CDATA[13:37:59.831 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.leonlabs.search.repository.CityRepositoryTests]
+13:37:59.841 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:37:59.861 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:37:59.897 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.leonlabs.search.repository.CityRepositoryTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:37:59.913 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.leonlabs.search.repository.CityRepositoryTests], using SpringBootContextLoader
+13:37:59.913 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.leonlabs.search.repository.CityRepositoryTests]: class path resource [com/leonlabs/search/repository/CityRepositoryTests-context.xml] does not exist
+13:37:59.913 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.leonlabs.search.repository.CityRepositoryTests]: class path resource [com/leonlabs/search/repository/CityRepositoryTestsContext.groovy] does not exist
+13:37:59.923 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.leonlabs.search.repository.CityRepositoryTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:37:59.973 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.013 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.leonlabs.search.repository.CityRepositoryTests]: using defaults.
+13:38:00.023 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:38:00.063 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6fb0d3ed, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6dde5c8c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5123a213, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52525845, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b94d659, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@24b1d79b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@68ceda24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@281e3708, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@35a50a4c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f021e6c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@103f852, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@587c290d]
+13:38:00.073 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.073 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.073 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.073 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:38:00.073 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:38:00.083 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.leonlabs.search.repository.CityRepositoryTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:38:00.083 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.leonlabs.search.repository.CityRepositoryTests], using SpringBootContextLoader
+13:38:00.083 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.leonlabs.search.repository.CityRepositoryTests]: class path resource [com/leonlabs/search/repository/CityRepositoryTests-context.xml] does not exist
+13:38:00.083 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.leonlabs.search.repository.CityRepositoryTests]: class path resource [com/leonlabs/search/repository/CityRepositoryTestsContext.groovy] does not exist
+13:38:00.083 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.leonlabs.search.repository.CityRepositoryTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:38:00.093 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.093 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.leonlabs.search.repository.CityRepositoryTests]: using defaults.
+13:38:00.103 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:38:00.123 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2d127a61, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bbaf4f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@11c20519, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70beb599, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e41089d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32a068d1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33cb5951, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@365c30cc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@701fc37a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4148db48, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@282003e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fad8c79]
+13:38:00.124 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.124 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.125 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.126 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.134 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@21a947fe testClass = CityRepositoryTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5606c0b testClass = CityRepositoryTests, locations = '{}', classes = '{class com.leonlabs.search.Application, class com.leonlabs.search.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@32709393, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@cd2dae5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6321e813, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6895a785], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:38:00.135 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.135 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.leonlabs.search.repository.CityRepositoryTests]
+13:38:00.245 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:38:00.245 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:38:00.245 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:38:00.255 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+13:38:00.265 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+13:38:00.265 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2018-07-08 13:38:00.781  INFO 6892 --- [           main] c.l.s.repository.CityRepositoryTests     : Starting CityRepositoryTests on RAVI-PC with PID 6892 (started by RAVI in C:\Users\RAVI\Desktop\location-search)
+2018-07-08 13:38:00.781  INFO 6892 --- [           main] c.l.s.repository.CityRepositoryTests     : No active profile set, falling back to default profiles: default
+2018-07-08 13:38:00.880  INFO 6892 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@795509d9: startup date [Sun Jul 08 13:38:00 IST 2018]; root of context hierarchy
+2018-07-08 13:38:05.069  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search/v1/suggest_cities],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.leonlabs.search.view.CityView>> com.leonlabs.search.rest.SearchController.getAllCitiesWithRequestedCriteria(com.leonlabs.search.view.SearchQuery,java.math.BigDecimal) throws java.lang.Exception
+2018-07-08 13:38:05.069  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-07-08 13:38:05.079  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-08 13:38:05.079  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-08 13:38:05.079  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-08 13:38:05.079  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-08 13:38:05.079  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-08 13:38:05.926  INFO 6892 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@795509d9: startup date [Sun Jul 08 13:38:00 IST 2018]; root of context hierarchy
+2018-07-08 13:38:06.026  INFO 6892 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-08 13:38:06.026  INFO 6892 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-08 13:38:06.056  INFO 6892 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-08 13:38:06.098  INFO 6892 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-08 13:38:07.067  WARN 6892 --- [           main] .s.b.a.a.EndpointWebMvcAutoConfiguration : Could not start embedded management container on different port (management endpoints are still available through JMX)
+2018-07-08 13:38:07.067  INFO 6892 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-07-08 13:38:07.067  INFO 6892 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-07-08 13:38:07.097  INFO 6892 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-07-08 13:38:07.117  INFO 6892 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-07-08 13:38:07.390  INFO 6892 --- [           main] c.l.s.repository.CityRepositoryTests     : Started CityRepositoryTests in 7.105 seconds (JVM running for 8.04)
+]]></system-out>
+  </testcase>
+</testsuite>

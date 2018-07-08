@@ -1,0 +1,47 @@
+### This is the main way to configure the application (other than annotations).
+### This file is in Yaml format but you can also configure spring boot using the traditional
+### Java properties file format. 
+
+spring.jmx:
+   enabled: false
+
+server:
+  port: 8090
+
+#todo: make sure to always enable security in production
+security:
+  basic:
+    enabled: false
+
+#management endpoints on a separate port
+management:
+  port: 8091
+  security:
+    enabled: false # management port is internal only. no need to secure it.
+
+#default project info followed by actual injected pom-specified values.
+project:
+  name: location-search
+  version: 0.1
+  description: This is a simple geo-search search project Java / Maven / Spring Boot (version 1.5.6) application 
+
+#info:
+#   build:
+#    artifact: ${project.artifactId}
+#    name: ${project.name}
+#    description: ${project.description}
+#    version: ${project.version}
+
+
+---
+spring:
+  profiles: test
+  h2:
+    console:
+      enabled: true
+  
+logging:
+  file: boot_search.log
+  org.hibernate: INFO
+
+ 
