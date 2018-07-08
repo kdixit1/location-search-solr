@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper=false)
-@SolrDocument(solrCoreName = "solr")
+@SolrDocument(solrCoreName = "kd_test")
 public class City extends BaseEntity{
 
 	private static final long serialVersionUID = 1L;
