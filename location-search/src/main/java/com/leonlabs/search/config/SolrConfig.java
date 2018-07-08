@@ -14,7 +14,7 @@ public class SolrConfig extends SpringBootServletInitializer {
 
 	@Bean
     public SolrClient solrClient() {
-        return new HttpSolrClient("http://localhost:8983/solr");
+        return new HttpSolrClient("http://localhost:8983/");
     }
  
     @Bean
