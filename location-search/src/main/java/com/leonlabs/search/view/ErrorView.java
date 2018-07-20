@@ -11,6 +11,9 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(callSuper=false)
 public class ErrorView{
 
+	/**
+	 * 
+	 */
 	private String errorCode;
 
 	private String errorDescription;
